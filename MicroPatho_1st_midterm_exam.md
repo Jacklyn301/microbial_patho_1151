@@ -4,7 +4,7 @@ title: MicroPatho_1st_midterm_exam
 ---
 
 # Microbial Pathogenesis
-## The Vertebrate Host
+## lecture 1
 ### 病原菌的四大循環
 > 咱們以霍亂弧菌為例 🦠
 
@@ -474,3 +474,234 @@ style c fill:#86e55d, stroke:#333
 - 呈現抗原的方式也是用MHC，只是他**兩種MHC (I、II) 都有**
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/dendritic_cell_can_present_antigen_to_both_Th_cell_and_Tc_cell_with_MHC_I_and_II_0926.jpg)
+
+---
+
+## lecture 2
+### 主角登場
+- *Staphylococcus aureus*，也就是金黃色葡萄球菌，革蘭氏陽性菌，是常見的感染菌之一
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/high-magnification-of-10000x-strain-of-staphylococcus-aureus-bacteria_1001.jpg)
+
+- **MRSA**，也就是**methicillin-resistant**的金黃色葡萄球菌，基本上是抗生素濫用的 "產物" 之一
+- 這種細菌基本上.... **無害也無益 (opportunistic)**，皮膚上就有不少，除非你破皮，然後很倒楣的細菌大量繁殖然後免疫力差造成感染 🙂
+- 畢竟，約三分之一的人鼻子裡就住著這種東西
+  - **starphyle**，是希臘文中的 "葡萄"
+  - **aureus**，是拉丁文中的 "金色"
+  - **coccus**則是 "球菌"
+- 如果造成感染，產生的症狀包含: 
+   - **abscesses** (含有pus的傷口，也就是膿瘡)
+   - 嚴重時導致**敗血症 (sepsis)** 或是**肺炎 (pneumonia)**
+   - 甚至可能影響骨骼、心臟等器官
+- 在**tryptic soy agar上面生長**時，菌株看起來就是金黃色的
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/staphylococcus-bacteria-cultured-colonies-of-staphylococcus-aureus-bacteria-in-a-petri-dish_1001.jpg)
+
+> [!Note]
+> 他造成機會感染的原因，基本上就是因為... **長錯位置，不小心跑進身體裡了** 🤣
+
+#### 橄欖球事件
+- 2003年正是美式足球興盛的時候，這種撞來撞去的比賽，時不時有受傷是正常的
+- 然而，當時有球員出現abscess，而且由於是金黃色葡萄球菌，所以通常需要用抗生素。醫生打算利用抗生素治療
+- 但是發現沒用，膿瘡長久無法癒合，因此，CDC就介入採樣，最後確認是被MRSA感染
+- 之後運動界就強力要求，如果感染就要立即介入，不然會傳染 (搞的跟流行病似的 💀)
+- NCAA等組織也開始貼了一堆海報，例如寫著標題像是...
+
+> [!Note]
+> *a good player will pass the ball, not staph (S.aureus)* 😎
+
+- ...我真的會笑死 🤣💀
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/CDC_and_NCAA_launched_an_educational_campaign_to_control_the_infection_of_MRSA_1001.png)
+
+- 台灣似乎比較少這種狀態，也比較少提及MRSA，多數S. aureus事件跟拉肚子或是食物中毒比較有關
+
+### Host-pathogen interaction
+#### 對於宿主來說
+- 其中一個參與人員就是neutrophil
+- 嗜中性球身上有NADPH oxidase (一種氧化酶)
+- 這東西攻擊病原體的方式，叫做**氧化大爆發 (Respiratory burst)**
+- 該酵素會大量利用氧氣，專門把氧氣變成ROS (欸對，媽的這是同歸於盡吧)，嚴格來說...
+  - NADPH可以提供一個電子，基本上該酵素，就是把電子強加在氧氣上面 (喂)
+  - 一個氧氣多收一個電子，或是三個電子，會因為 "電子沒有配對成一對"，產生自由基
+  - 除了自由基，過氧化氫也是ROS的一種，他也可以殺菌，雖然它不是自由基
+- 主要反應如下: 
+
+$$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
+
+|收了幾個電子|變成|被誰催化|
+|---|---|---|
+|1| $O_2\cdot^-$ |NADPH oxidase|
+|2| $H_2 O_2$ |SOD，超氧化物歧化酶|
+|3| $\cdot OH$ |Fenton反應，過氧化氫和三價鐵離子反應|
+
+#### NETosis
+- NETs就是嗜中性球**利用自己的染色體網住病原體**，這個網裡面也有一堆別的東西，但主要就是DNA跟組蛋白
+- 而且其實細胞並不是在自己身體內困住細胞，而是... **直接把自己的染色質丟出去 (自爆?)**
+- **ROS是觸發NETosis的前提之一**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/types_of_NETosis_in_neutrophil_1001.png)
+
+#### S. aureus的反擊
+- 一般來說，抗體的Fab (手臂) 接觸病原體的抗原，Fc被巨噬細胞等血球以IgG receptor等辨識
+- 因此，有些細菌可以產生SpA (葡萄球菌蛋白A)，這些蛋白可以結合所有IgG抗體的腳 (Fc)，然後吞噬細胞就拿他沒轍
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/4WWI_Crystal%20structure%20of%20the%20C%20domain%20of%20staphylococcal%20protein%20A%20in%20complex%20with%20the%20Fc%20fragment%20of%20human%20IgG.html" width="100%" height="500px"></iframe>
+
+
+- 同時，**細菌本身也有酵素 (例如catalase)**，可以去處理ROS，讓嗜中性球的氧化爆發也拿他沒轍
+
+#### PVL
+- **panton-valentine leukocidin**，也就是弒白血球素，在結構上和hemolysin有點像 (功能也差不多 🙂)
+- 這些蛋白由細菌製造，例如LukS、LukF，這些蛋白辨識細胞膜後，就會開始聚合，在膜上打洞
+- 這種主要以孔上打洞為主的殺宿主毒素，也被稱為pore-forming toxin (PFT)
+- 不同細菌有不同的PFT
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/6U3Y_Structure-based%20discovery%20of%20a%20novel%20small-molecule%20inhibitor%20of%20methicillin-resistant%20S.%20aureus.html" width="100%" height="500px"></iframe>
+
+### 水平基因移轉
+- 分為三種，我不想翻譯了，直接記住英文 🙂🙂
+   - conjugation (利用sex pilus傳遞質體、轉座子)
+   - transduction (透過phage的遺傳物質卡在自己的genome)
+   - transformation (從環境裡面直接抽獎)
+
+![image alt](https://vignette.wikia.nocookie.net/uvmgg/images/4/47/Nrmicro1325-f2.jpg/revision/latest?cb=20121029205057)
+
+#### 1.0、2.0、3.0版本
+- MSSA就是... 1.0版的金黃色葡萄球菌，還沒辦法抗methicillin (菜鳥)
+- 有一天他倒楣的被phage感染，然後病毒裡面有一段東西，叫做PVL基因 (就是那個打洞的)，然後他奇蹟般的活下來了
+- 然後這傢伙雖然現在還是無法抵抗抗生素，但好歹可以給細胞穿洞了，成為2.0版細菌
+
+> [!Note]
+> 基本上，所有MRSA (3.0版) 都過了這一階段，因此如果你感染了MRSA，就看看你身體裡面有沒有PVL基因就可以
+
+##### gene cassettes
+- 這東西基本上有兩個東西: 
+  - **integron (可以移動的插槽系統)**
+  - **抗抗生素基因 (例如mecA)**
+- 然後這個integron可能就是... 被MSSA接到，然後就有了抗藥性
+- 甚至這個質體可以被細菌從自己的基因組切除，然後丟給別的細菌
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/acquisition-of-gene-cassettes-Integrons-obtain-a-new-gene-cassette_1001.webp)
+
+- multiple cassette: 一個integron上面有多個抗抗生素基因 (大禮包送給各位)
+- 然後久而久之，你就可能會得到一個環境，然後裡面的桿菌跟弧菌跟球菌就都共享這個大禮包，一人一個感情不會散 🙂🙂
+
+### 抗生素小故事
+- 1928的一天，一科學家 Fleming 發現自己原本培養S. aureus的培養皿上面，竟然覆蓋了真菌，這在當時基本上會被當成樣本汙染
+- 然後他發現菌絲周圍一圈，空空的，沒有黃色的細菌菌株
+- 這是penicillin發現的故事之一，並且用了抗生素治療了一戰和二戰受感染的病患
+- 然後就被捧上天，快死的人一服用penicillin就奇蹟般活過來，不信自己看看底下這張海報 🙂
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/advertisement_for_penicillin_production_from_Life_magazine--United_States%2C%20August_14%2C%201944_1001.png)
+
+- 這也讓他得到了諾貝爾獎 😏
+
+#### beta-lactam
+- 這是一個四元環的結構，青黴素、頭孢環素等抗生素都有這個結構
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/beta-lactam_structure_in_antibiotic_1001.png)
+
+- 這一類的抗生素主要針對PBP，也就是負責聚合肽聚醣的酵素。這些酵素主要產生肽橋
+
+> [!Tip]
+> 醣鏈 (glycan chain) 合成**主要由 glycosyltransferase / transglycosylase 形成，而非PBP**
+
+- beta-lactam可以使PBP失活，導致細胞壁不堅固
+- 然後細菌**就會爆炸 (osmotic lysis)**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/mechanism_of_penicillin_and_other_beta_lactam_antibiotic_1001.png)
+
+> [!Note]
+> - **lysozime (也就是水解酶)**: 主要斷掉 beta (1→4) 鍵結
+> - **penicillin**: 抑制肽橋的合成
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/peptidoglycan_structure_0425.png)
+
+#### 補充: 細胞壁結構
+- **teichoic acid**: Gram (+) 的細胞壁裡面，帶負電的磷酸聚合物。他們插著這些東西
+- lipopolysaccharide (脂多醣): PAMPs的超醒目信號，會把免疫系統整個叫醒，存在於Gram (-)
+
+![image alt](https://onlinesciencenotes.com/wp-content/uploads/2018/08/gmm.png)
+
+> [!Tip]
+> 青黴素跟lysozyme，**對殺死Gram (+) 比較有效**
+
+#### 然後全球高興沒多久...
+- 使用青黴素兩年後，然後就抗藥性出現了
+- 他們在演化中出現了可以**水解並斷裂beta-lactam ring的酵素**，然後... 把它裝進gene cassette (大禮包又送給各位 🙂)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/chemical_mechanism_of_beta-lactamase_1001.png)
+
+#### 然後人類又贏了，又輸了
+- 然後後來發明了methicillin，希望可以因此殺死抗藥性S. aureus
+- 然後不到一年就抗藥了 🤣💀
+
+### S. aureus如何傷害人? 🧐
+#### 傷口癒合
+- **fibrin**是一種類似纖維的蛋白，堵住傷口
+- 而同時，**血球跟細菌的遺體會卡在這個地方**，形成abscess
+- 而**S. aureus會分泌coagulase**，主要替代thrombin (凝血酶)，使其跟fibrinogen反應，然後會產生更多的fibrin
+
+> [!Important]
+> 人體的**thrombin**跟金黃色葡萄球菌**coagulase**的作用是一樣的
+
+- fibrin屬於疏水性的，裡面會包覆很多東西，形成血塊 (blood clot)
+
+##### 可是...為什麼? 🫠
+- abscesses如果可以保護傷口，產生的clot是疏水性的，那為什麼細菌不在abscesses裡面生長呢? 當然可以，只要運氣好
+- 對於細菌來說，產生更多fibrin就是透過區隔自己跟血液中的血球，免受侵害
+- 如果你的abscesses沒有消掉，**很大可能裡面還有活著的細菌**，也就是說: 
+
+> [!Note]
+> Coagulase 可透過**促進 fibrin 沉積協助細菌逃避吞噬作用**，逃避免疫
+
+- 此時如果不處理，abscesses破裂時就會有大量細菌融入血液，敗血症風險增加 😱
+
+#### 細菌自帶酵素的後果
+- coagulase可以**活化prothrombin**，然後這個酵素基本上就可以去剪切、活化fibrinogen，形成fibril
+- 同時會產生**SSL10**，這個分子會**抑制宿主自己能活化thrombin的能力**
+- 因為**thrombin活化時造成的級聯反應，基本上會容易讓免疫系統察覺**，這對細菌來說是不利的
+- 所以當然是減少級聯反應的好，最好不要活化thrombin
+
+> [!Tip]
+> 我不允許你用你的剪刀，我只允許用我的剪刀:D
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/physiological_host_defenses_immobilize_bacteria_through_the_activation_of_the_prothrombin_1001.png)
+
+#### coagulase test
+- 假設你培養出一堆革蘭氏陽性球菌...但這時候還不知道是哪一種。它們可能是...
+  - S. aureus
+  - S. epidermidis
+  - S. saprophyticus
+- 這時如果做 coagulase test，**只要發現產生了fibrin纖維 (溶液混濁)，那基本上可以確認是S. aureus無誤了** 😎
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/coagulase_positive_and_negative_tube_1001.png)
+
+### Nutritional Immunity
+#### hemoglobin
+- 兩個alpha兩個beta，每一個亞基中間都有一個heme group
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/3WTG_Crystal%20structure%20of%20Emu%20(dromaius%20novaehollandiae)%20hemoglobin.html" width="100%" height="500px"></iframe>
+
+- 而**細菌也需要鐵**，細菌會等到血球溶解時把二價鐵搶走
+- 因此，nutritional immunity的定義基本上就是: **把養分搶回來，讓細菌餓死**
+
+#### haptohlobin and hemopexin
+- 血球溶解時，hemoglobin會溶在血漿裡面，這時**haptoglobin (Hp) 會結合於完整的血紅蛋白**
+- 而如果有**游離的heme，則由hemopexin結合於它**
+- 此時細菌就比平常更難把鐵挖出來
+
+#### macrophage
+- 當他們產生吞噬小體時，這些吞噬小體也會主動把二價鐵 $Fe^{2+}$ 跟錳從細菌碎片裡面挖出來
+- 主動pump鐵的蛋白為NRAMP1
+
+#### neutrophil
+- 會產生NGAL蛋白，主要捕獲三價鐵離子 $Fe^{3+}$
+
+|鐵來源|由誰抓 or 挖走|
+|---|---|
+|hemoglobin|haptoglobin|
+|heme group|hemopexin|
+| $Fe^{3+}$ |NGAL、Transferrin、lactoferrin、ferritin|
+| $Fe^{2+}$ |NRAMP1 pump|
