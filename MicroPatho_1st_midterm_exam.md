@@ -699,9 +699,221 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 #### neutrophil
 - 會產生NGAL蛋白，主要捕獲三價鐵離子 $Fe^{3+}$
 
+#### 其他蛋白質
+- 在腸道裡面，主要是用乳鐵蛋白 (lactoferrin) 來結合三價鐵
+- 除此之外，transferrin (血液)，以及ferritin (細胞內) 都可以跟三價鐵離子結合
+
+#### siderophore
+- 鐵載體是細菌為了「搶鐵」製造的高親和力鐵螯合分子
+- 也可以把他形容成鐵鉤子，負責跟NGAL搶三價鐵離
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/siderophore_steal_iron_from_lactoferrin_and_NGAL_1008.jpg)
+
+> [!Note]
+> 二價鐵離子相對於三架鐵離子來得水溶
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/multiple_host_mechanisms_sequester_iron_from_microbe_1008.png)
+
 |鐵來源|由誰抓 or 挖走|
 |---|---|
 |hemoglobin|haptoglobin|
 |heme group|hemopexin|
 | $Fe^{3+}$ |NGAL、Transferrin、lactoferrin、ferritin|
 | $Fe^{2+}$ |NRAMP1 pump|
+
+#### 血瓊脂
+- Blood agar = agar + 約 5% sheep blood 的培養基
+- 它不只是 "養細菌的果凍"，還是一個 differential medium (鑑別培養基)
+- 因為某些細菌會**產生hemolysin，把 RBC 搞壞搶鐵**，所以菌落周圍就會出現不同程度的溶血
+
+##### $\alpha$
+- $\alpha$ -hemolysis 是**partial hemolysis**，也就是說，紅血球沒有完全被摧毀
+- 菌落周圍會出現**綠色/綠褐色的 halo** (hemoglobin 被氧化成其他色素相關產物
+- 經典例子包含 *S. pneumoniae*、*V. streptococci*
+
+##### $\beta$
+- $\beta$ -hemolysis 基本上是complete hemolysis，溶血能力最強，RBC被完整破壞
+- 基本上可以挖出一個透明的clear zone
+- 經典例子就是*Staphylococcus aureus* ，我們的主角 😏
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/beta_hemolysis_on_blood_agar_plate_1008.jpg)
+
+#### hemolysis
+- 溶血時會導致大量**血紅素、heme、iron**跑出
+- 這時各種相關的蛋白 (transferrin、lactoferrin、hemopexin、haptoglobin) 就會趁機搶走這些分子
+
+#### straphyloferrin
+- 鐵鉤子勾住了鐵，還是需要運輸蛋白把鐵傳到細菌內部
+- 例如**staphyloferrin A用HtsABC**、s**taphyloferrin B用SirABC**來運輸
+- 他的膜表面也可以用**蛋白質直接辨認heme (利用IsdA)**
+- 甚至會去**辨認血紅素 (利用IsdB、IsdH) !!**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/mechanism_of_S.%20aureus_to_capture_hemoglobin_heme_and_iron_1008.png)
+
+> [!Note]
+> ##### 再回到opportunistic pathogen
+> - 這些無害也無益的病原體，在身體裡面根本不會怎麼樣，大家幾乎都帶著菌
+> - 除非你免疫力超差，例如CD4+掉下來，你才會因為它們而掛掉
+
+
+---
+
+## lecture 3
+### 主角登場
+- *Mycobacterium tuberculosis* (MTB)，結核分枝桿菌，屬於專性好氧菌
+- 他的細胞壁表面有一層**mycolic acid**，這種保護層可以導致其產生抗生素抗性
+- 同時這也讓他在染色時，難以染成革蘭氏的紫色 (也就是說，他是Gram (+)，但是染不上去，等一下會提及)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/mycobacterium_tuberculosis_under_microscopy_1008.jpg)
+
+#### 結核病
+- 結核病也被稱為 "白死病" (**White Plague**，黑死病，也就是鼠疫，叫做Black Plague)
+- **Marie Duplessis**，一位法國交際花跟名妓因為結核病過世
+- 紅磨坊的背景，以及紅樓夢的林黛玉，也都是和結核病有關
+- 17-18世紀期間，有**四分之一的死亡是因為MTB**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/portrait_of_Marie_Duplessis_in_19th-century_1008.jpg)
+
+- 即使在已開發國家已經少見，仍然在**全世界為感染致死疾病的排名第二**
+- 可以發現，結核病跟HIV的盛行率，在一些地區呈現正相關
+- 這有可能是因為**免疫喪失是導致結核病發作的原因，而HIV進展成AIDS時會導致後天免疫斷崖式下跌**
+- 即使如此，我們依然把**結核桿菌當成病原體**，而非免疫抑制導致的機會性感染
+- 最容易產生TB的環境，通常就是**極其擁擠的地方** (例如監獄或是集中營)，主要為空氣傳播
+- 可以分成三期: 
+    - **primary TB**: 初期感染
+    - **latent TB**: 潛伏期
+    - **secondary TB**: 在免疫力下降時，病情 "復發"，導致發燒、咳嗽或是體重下降
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/lung_infection_with_tuberculosis_1008.jpg)
+
+### wax-like properties
+- MTB分裂的速度，**超級無敵慢**
+- 因此，通常難以做實驗，因為實在生長太慢了
+- 他身上**表面的waxy膜**，讓它們並不會對任何有極性的東西可溶 (所以酒精沒用)
+
+#### Gram stain
+- 基本上，由於這層像是蠟的東西，一般的Gram stain根本染不上去MTB
+- **結晶紫 (crystal violet)** and **番紅 (safranin)**，是做革蘭氏染色的方法
+- Gram (+) 利用**結晶紫跟iodine結合**後，比較難被酒精或是丙酮洗掉染料，因此保留原本的紫色
+- 而 Gram (-) 會因為外膜跟酒精等洗滌接觸，**導致掉色，之後再用safranin時，就出現safranin的顏色**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/gram-stain-procedure.webp)
+
+#### acid fast
+- acid fast是在講染色特性
+- 通常利用**複紅染劑 (carbol fuchsin)** 去染色，然後加入acid-alcohol
+- 洗去大部分顏色後，只有那些細胞壁外面有一層waxy的細菌還會有顏色，洗不掉
+
+> [!Tip]
+> 染上去 → acid-alcohol → 「你洗你媽。」→ 顏色還留著 🤣
+
+- 之後**再加入甲基藍 (methylene blue)**，讓去色的細菌重新染成藍色
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/acid-fast-staining-procedure_1008.jpg)
+
+#### 分枝菌酸
+- MTB的**mycolic acid**，其實是**細菌自己製造的**，他有一大部分基因就是專門做出這東西的
+- 我們在之前提到抗生素時就知道，Gram (+) 基本上很弱雞，比 Gram (-) 更容易被抗生素、白血球target並殺死
+- MTB產生的mycolic acid算是一種**另類防禦手段，使其不容易被免疫細胞辨認**
+
+> [!Tip]
+> 如果我把它製造mycolic acid的基因knock out，這傢伙基本上分分鐘死亡，也不具有致病性 🐱
+
+#### capsule vs cell envelope
+- capsule通常是由多糖、蛋白質、一些脂質形成，不一定是必要，而且附著鬆散，有可能脫落，通常有**免疫逃脫的功能**
+- envelope基本上**直接透過共價鍵**連接在細胞膜上面，組成包含**肽聚醣、阿拉伯聚醣、以及剛剛提到的mycolic acid**
+- envelope對結構穩定非常重要，形成一個**不溶於水的barrier**，抵禦外界環境壓力
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/structure_of_capsule_and_envelope_on_gram-positive_bacteria_1008.png)
+
+### granulomas
+- **肉芽腫**是結核病潛伏期常出現的症狀
+- 其表面覆蓋了巨噬細胞，在這個肉芽腫破裂之前，**宿主沒有傳染力，也沒有症狀**
+- 這要一直到**secondary TB**後，出現嚴重症狀時，才會出現active TB disease
+- 這常常**跟糖尿病、老化、壓力和HIV共病**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/granulomas_histology_1008.jpg)
+
+#### macrophage
+- **巨噬細胞是MTB喜歡target的一個對象**，他是MTB最喜歡攻擊的目標
+- 此圖上面的紅色為結合分枝桿菌，綠色為宿主細胞的脂質
+- 螢光顯微鏡中，紅色跟綠色的交疊處，會呈現黃色
+- 當出現黃色時，往往代表兩者間有交互作用
+- 95%的人不太可能出現secondary TB，並且**全世界約1/4的人口是帶原 (但通常沒有傳染力)**
+- 在那些**免疫出現問題、或是被影響的患者 (immunocompromised)**，通常有更高的機率病情惡化
+
+> [!Note]
+> - 覺得底下這張圖有什麼特點嗎? MTB在什麼地方呢? 😏
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/M.tuberculosis_imported_host-derived_lipids_from_foamy_macrophage_under_fluorescence_microscopy_1008.png)
+
+#### 細胞內生長
+- 被macrophage吞噬的MTB**不會被溶體的酵素破壞**，因為包含他們的**phagosome沒有辦法跟lysosome結合**
+- 這些MTB基本上就會在phagosome裡面自己生長，同時把這裡當成抵禦外界攻擊的小空間 (MTB: 你人還怪好的勒 🙂)
+  - 目前認為，該細菌會分泌LAM (脂阿拉伯甘露聚醣)，避免其跟lysosome結合
+  - 當然，LAM本身是一種PAMPs，可以被免疫細胞辨認，所以免疫細胞可能會察覺不對勁... 然後就沒了 💀
+
+> [!Tip]
+> - Macrophage: 「我把你吞進 phagosome，這樣你就不會到處亂跑。」
+> - MTB: 「喔，謝謝你。」🙂
+> - Macrophage: 「我會把你隔離起來，然後跟 lysosome fusion，把你殺掉。」
+> - MTB: 「……」
+> - Macrophage: 「你怎麼不說話？」💀
+> - MTB: 「我只是在想，這個房間還滿安全的。」🙂🏠
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/M.tuberculosis_survives_and_replicates_within_macrophages_by_actively_preventing_the_fusion_of_its_phagosome_lysosomes_1008.png)
+
+#### 肉芽腫是誰做的
+- 肉芽腫基本上就是免疫系統對難纏的病原體啟動的一種防禦機制
+
+> [!Tip]
+> - Macrophage:「看！GRANULOMA！」😎
+> - MTB:「……」
+> - Macrophage:「現在你跑不掉了。」😏
+> - MTB:「這裡氧氣好像比較低。」😗
+> - Macrophage:「對。」
+> - MTB:「營養也比較有限。」😗
+> - Macrophage:「對。」
+> - MTB:「那我降低 metabolism，慢慢活。」🙂
+> - Macrophage: 「……蛤？」💀
+
+- 在結構上，肉芽腫**最中間是壞死的組織，主要就是被MTB感染的死細胞**
+- 形成這種東西對於身體來說是個保護模式，但是其實它沒有特別厲害
+- granuloma 不是一個完美消毒室，它比較像 "把這群王八蛋關在一棟隔離大樓裡"
+- 第二層是充滿脂質的**泡沫巨噬細胞**，第三、第四層就是**epithelioid巨噬細胞，以及T細胞**
+- 只是，MTB這傢伙，在壞死的組織中間，**偶爾就是會吃泡沫細胞裡面的油脂** (謝謝自助餐)
+
+> [!Tip]
+> - Macrophage:「……你在看什麼？」🤨
+> - MTB:「沒什麼。」😗
+> - Macrophage:「你是不是在吃我的 lipid？」🤨
+> - MTB:「……」😗
+> - Macrophage:「你他媽是不是在吃我的 lipid？」💀
+> - MTB:「Well, technically……」😗
+> - Macrophage:「你住我家、吃我東西、還不死？？？」💀💀
+> - MTB:「你的 hospitality is excellent。」🙂
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/granulomas_structure_1008.png)
+
+
+### 致命一擊
+> [!Note]
+> - 免疫細胞通常需要釋放一定的細胞因子，去維持肉芽腫的結構
+> - 不過，通常來說，**MTB並不會產生毒素，也不會破壞細胞**，所以到底幹嘛會致命? 🤔
+
+#### 免疫系統攻擊
+- 高度的TNF- $\alpha$ 會導致cachexia (惡病體質)，炎症 level 增加
+- cachexia的症狀包含肌肉流失、非自主式體重減輕、疲倦和食慾不振等等
+- 也就是說，細菌從肉芽腫破裂中出現，**最主要導致身體狀況變差的，其實就是免疫系統導致**
+- 有點類似細胞因子風暴的感覺
+- 同時巨噬細胞會產生水解酶等等的東西，這會導致**周邊正常組織壞死**
+- 而原本的肉芽腫生長區域，就會**形成空腔**
+
+> [!Tip]
+> **galloping consumption**，就是呈現出 **"身體狀況斷崖式下跌"** 😱
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/symptoms_of_cachexia_1008.jpg)
+
+#### Bacille Calmette-Guérin vaccine
+- 也就是**卡介苗**，是一種減毒後的**牛的分枝桿菌 (Mycobacterium bovis)** 所製成的活性疫苗
+- 接種 BCG 疫苗後，**通常不會導致結核病感染**
