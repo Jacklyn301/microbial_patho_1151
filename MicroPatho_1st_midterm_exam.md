@@ -917,3 +917,284 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 #### Bacille Calmette-Guérin vaccine
 - 也就是**卡介苗**，是一種減毒後的**牛的分枝桿菌 (Mycobacterium bovis)** 所製成的活性疫苗
 - 接種 BCG 疫苗後，**通常不會導致結核病感染**
+
+---
+
+## lecture 4
+### 主角登場
+- *Listeria monocytogenes*，**單核球增多性李斯特菌**
+- 和結合分枝桿菌的共通點就是... **很愛在細胞內生活 (intracellular pathogens)** 🙂
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/listeria-monocytogenes-bacteria-image_1015.jpg)
+
+#### short introduction
+- Gram-positive bacillus: **革蘭氏陽性**桿菌，具有厚的 peptidoglycan cell wall
+- Facultative anaerobe: **有氧、缺氧環境都能生長**
+- Facultative intracellular: 可以在宿主細胞外生長，也可以進入細胞內存活與繁殖
+- Motile: 在適當的低溫條件下 (20到25攝氏度)，可**利用鞭毛運動**
+- Psychrotrophic: 能在**冷藏溫度下生長**，這也是它在食品安全上特別麻煩的原因
+
+#### 故事還要從冰淇淋說起
+- 美國那家冰淇淋品牌 Blue Bell Creameries，在2015年槓上了一件事
+- Blue Bell 在德州與奧克拉荷馬州的生產設施製造的多種冰淇淋產品檢出 L. monocytogenes
+
+> [!Tip]
+> - 這讓人覺得不是只有一種冰淇淋倒楣汙染，而是生產線出現汙染 🤔
+
+- 後來冰淇淋竟然進入醫院病患的飲食，原本養病的患者在吃了伙食後發病，三人因此死掉
+- 研究人員使用 PFGE（脈衝場凝膠電泳）及 WGS（全基因組定序），比較病患與冰淇淋中分離出的細菌。基因組資料顯示，部分病患菌株與產品中的菌株高度相關
+- 因此後來召回當時市售的所有產品，並且對該公司處以罰款
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/Listeriosis_outbreak_linked_to_Blue_Bell_ice_cream_triggers_international_recall_of_frozen_dairy_desserts--data_from_CDC_1015.png)
+
+> [!Note]
+> - 台灣目前將李斯特菌症狀，規定為 **"第四級傳染病"**  🐱
+
+#### 接觸方式
+- 他可以在腐敗的個體上生活，例如土壤
+- 李斯特菌基本上感染的範圍很高，包含鳥類、哺乳類、甚至是兩棲類或是節肢動物 (也就是**人畜共患病，zoonoses**)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/species_with_reported_isolation_of_Listeria_monocytogenes--table_from_WOAH_Terrestrial_Manual_1015.png)
+
+- 他也是**非常耐旱或是耐冷的微生物**，並且它可以在塑膠、金屬表面**形成biofilm**，這讓很多抗菌的東西難以殺死牠
+  - **monocytogenes**: 因為這種細菌在兔子身上可以看到大量的**單核球聚集**
+  - **Listeria**: 紀念Joseph Lister，因為它對開放性手術的消毒做了巨大貢獻 
+
+> [!Tip]
+> 因此，只要食品工業一發生汙染，基本難以根除細菌
+
+#### 無所不在
+- 它廣泛存在於土壤、水、腐敗植物及部分食品生產環境中
+- 人類主要透過受污染的食物感染，例如未充分加熱的即食肉品、未經巴氏殺菌的乳製品等
+- 汙染開頭通常不是工廠，是從環境開始，然後透過產業鏈跟食物鏈跑遍各處
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/L.%20monocytogenes_contamination_sources_include_enviroment_industry_and_flow_of_product_and_humans_1015.png)
+
+### 感染途徑
+- 從腸道開始，進入血液循環
+- 其中最重要的兩個目標是 brain（腦）和 placenta（胎盤）
+
+#### brain
+- 正常情況下，blood-brain barrier（BBB）會限制血液中的病原體進入中樞神經系統
+- 但李斯特菌可以透過與腦微血管內皮細胞交互作用、**跨越細胞屏障等機制進入 CNS**
+- 造成腦膜炎、腦炎，部分患者還會出現 rhombencephalitis，也就是以腦幹為主的腦炎
+
+#### placenta
+- 胎盤不是單純的過濾器，而是一個具有多層細胞與免疫防禦的器官
+- 李斯特菌一旦進入母體血液，就可能感染胎盤，並進一步影響胎兒
+- 導致流產、死胎、早產或新生兒敗血症、腦膜炎，只要母體有感染，6成的機會胎兒也會被感染
+
+#### 機會性感染
+- 健康成人可能只有發燒、腹瀉等腸胃道症狀
+- 但在高風險族群中，**感染可能進展為 bacteremia 或 meningitis**
+- 特別需要注意...
+   - 孕婦與胎兒、新生兒
+   - 老年人
+   - 免疫功能低下者
+
+### 感染途徑
+#### 步驟說明
+- **Entry**: 細菌透過 **InlA–E-cadherin** 或 **InlB–Met** 等途徑進入宿主細胞
+- **Vacuolar escape**: LLO、PlcA、PlcB 協助細菌逃離吞噬小體
+- **Cytosolic replication**: 在宿主細胞質中繁殖，吃好喝好
+- **Actin-based motility**: ActA 招募 Arp2/3，形成 **actin comet tail**
+- **Cell-to-cell spread**: 推動細菌進入鄰近細胞，繼續感染週期
+
+#### 其中簡介
+##### prfA
+- 他可以透過正回饋促進自己的轉錄活性
+
+##### inlA and inlB
+- **InlA** 可與宿主的 **E-cadherin** 結合
+- **InlB** 則可活化 **Met receptor tyrosine kinase**
+- 兩者啟動不同的宿主訊號，促進細胞吞入細菌
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/2OMZ_Crystal%20structure%20of%20InlA%20Y369A-hEC1%20complex.html" width="100%" height="500px"></iframe>
+
+##### Listeriolysin O (LLO)
+- 一種**成孔毒素**，能破壞含有膽固醇的膜，**幫助細菌逃離 phagosome**，進入宿主細胞質 (歐耶不會被分解 🙂🙂)
+
+##### PlcA & PlcB
+- 磷脂酶，參與破壞宿主膜
+- PlcA 是 phosphatidylinositol-specific phospholipase C
+- PlcB 則具有較廣泛的磷脂酶活性，協助細菌突破膜性隔間
+
+##### actA
+- 在細菌表面招募並活化宿主的 actin nucleation machinery
+- 尤其是 Arp2/3 complex，使 actin 聚合形成推進細菌的尾狀結構
+- 形成推進的actin comet tail，彗星尾巴（？）
+- 這會推動細菌進入鄰近細胞
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/L.-Monocytogenes-cycle-of-infection.png)
+
+### 從腸道開始
+- 平常絨毛上的上皮細胞間都是由**tight junction**組合，不會讓異物入侵
+- 除非... **有細胞老了凋亡了，中間多出一個空子**，讓李斯特菌有機可乘
+- 他跑到你腸子 (例如你吃了生魚片) 後，**第一時間會從 "goblet cell" 進去**，杯狀細胞形成腸道壁黏液，他在胞吞作用方面比較沒有care太多警戒
+- 然後就開始從第一顆細胞開始水平遊走，一個一個慢慢穿越，就是用剛剛的inlA–E-cadherin 等途徑促進入侵
+
+> [!Tip]
+> - L. monocytogenes：你好，我叫 InlA，方便認識一下嗎？😗
+> - Goblet cell：可以呀，我是 E-cadherin，請進請進～🙂
+> - L. monocytogenes：activates host-cell signaling 😗
+> - Goblet cell：等等，你進來幹嘛？？？😐
+> - L. monocytogenes：escapes from the vacuole 😗😗
+> - Goblet cell：WTF 💀
+
+- 直到細菌穿過 epithelial barrier 後，已經進入腸上皮下方的 lamina propria（固有層），再往下走就是血管跟淋巴管
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/the_method_for_Listeria_monocytoge_to_enter_the_human_body_in_the_intestine.png)
+
+#### 如果被巨噬細胞吞了
+- **M cells** 是腸道中有的巨噬細胞
+- 腸道內壁其實還有一些疙瘩，這些疙瘩裡面其實充滿這些免疫細胞
+- 這些疙瘩也被稱為**peyer's patches**
+- 裡面基本上就是樹突細胞、巨噬細胞、T cell 跟 B cell，所以基本上甚至可能出現後天性免疫
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/peyers_patch_histology_1015.png)
+
+#### 反過來抑制
+- 假如說李斯特菌是被巨噬細胞吞掉，巨噬細胞會遷移到這一大堆免疫細胞堆中
+- 然後細菌就完了，呵呵 🙂
+- 其中一個特別的細胞因子是**IFN** $\gamma$ ，這會促進更多免疫細胞聚集、產生更多細胞因子
+- 最後的路徑甚至能**直接block掉inlA介導的胞吞作用** (主要就是**降低goblet cell的成熟速度**，讓他們還沒辦法吞外界的東西)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/the_defense_of_human_body_against_Listeria_monocytoge_is_triggered_by_immune_system_and_cytokine_IFN_gamma_1015.png)
+
+#### 吞進去後
+- 主角騙了goblet cell進入細胞後，然後... 要怎麼跑到下一個細胞?
+- 這時就要用LLO，也就是 listeriolysin O，這種蛋白質單體可以去辨認人類細胞膜上的膽固醇，並鑲嵌上去
+- 然後單體們在膜上面漂浮，逐漸聚集，並且圍成一個圈
+- 然後phagosome就破了 🙂
+
+> [!Note]
+> - 金黃色葡萄球菌的 PVL，跟宿主細胞的gastermin D 也是可以穿孔 (複習阿各位)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/listeriolysin_O_assemble_into_a_pore_to_trigger_the_lysis_of_vesicle_1015.png)
+
+#### Actin Assembly-Inducing Protein
+- 進入細胞質後，它就開始快速繁殖，從宿主獲得養分
+- 當能量變得有限時，細菌就需要想辦法到別的細胞去
+- 它會操縱宿主的actin，讓一堆短的actin filament 聚集在細胞的其中一極
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/actin_assembly-inducing_protein_lead_to_the_formation_of_actin_comet_tail_of_listeria_monocytogenes_1015.png)
+
+### 胎盤呢
+- placenta裡面有樹枝狀的 "絨毛"，也就是chorionic villi，為了跟母體的血液做養分的交換
+- 而嬰兒跟母體血液的隔板，就是**合體滋養細胞 (syncytiotrophoblasts)**
+- 而還會有一堆細胞往外繼續往母體血液的空間跑 (螞蟻?) ，擴張絨毛的表面積，被稱為**外絨毛滋養細胞 (extranillous trophoblast)**
+
+#### 感染
+- STB就是細菌target、入侵的位置
+- STP會分泌CSF-1、MCP-1，這就會招募巨噬細胞跟嗜中性球過來
+- 這些細胞倒不是直接殺敵，而是分泌別的細胞因子，讓NK cell過來
+- NK cell 產生的 IFN- $\gamma$ 可以讓macrophage的攻擊對象更加精準，不會吃掉所有螞蟻細胞，而是殺死那些已經被感染的螞蟻細胞
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/secretion_of_CSF-1_and_MCP-1_recruit_neutriphils_and_macrophage_in_placenta_1015.png)
+
+## lecture 5
+### 主角登場
+#### 首先，大家得要知道... 🤔
+- 如果僅僅是**分泌型腹瀉 (secretory diarrhea)**，可能原因是*V.cholerae* (霍亂弧菌)
+- 如果偵測到白血球，或是血液，屬於**發炎型腹瀉**，可能原因是*S. typhimurium* (沙門氏菌)
+
+#### 案例介紹
+- 2010年時，海地發生了芮氏規模7.0的地震
+- 在10個月之內，霍亂 (cholera) 就在該國肆虐
+- 這個國家早就在上一世紀就透過建設盡量避免該問題肆虐，過去幾十年幾乎沒有案例 (所以這是啥，文明毀滅下隨時報復的疾病?? 💀)
+- 8成的患者會因為脫水而死，伴隨**乳糜狀腹瀉** (像是洗米水 🙂💀)
+- 在**補充合適的鹽分、水分跟糖分，可以大幅降低霍亂的死亡率**
+- 霍亂是有疫苗的，當時主要最快給藥的方式就是口服型疫苗
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/WHO_prequalifies_new_oral_simplified_vaccine_for_cholera_in_Haiti_1015.jpeg)
+
+#### 到底是怎麼掛的
+- 主要原因就是**脫水，以及hypotonic shock** (離子跟鹽分缺失導致的後果)
+- 這種脫水的程度甚至可以讓患者一成的體重就此消失
+- 從症狀出現到個體死亡的時間長度不一，快的話可以在12小時內因以上任何一個原因而死
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/cholera_patient_with%20_Washer-Woman's-Hand_sign_due_to_severe-dehydration_1015.jpg)
+
+#### 發生位置
+- 如果李斯特菌來自於土壤，那霍亂弧菌來自於水源
+- 如果有幸通過胃酸，進到腸子裡面，細菌會斷掉自己的鞭毛，並且產生**toxin-coregulated pilus**，附著在上皮細胞上
+- 接下來就是開始分泌**cholera toxin (CT)**，這分子會進入上皮細胞，影響他的級聯反應
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/life_cycle_of_V.cholerae_0917.webp)
+
+### toxin coregulated pilus
+- 這東西屬於**第四型pilus**，負責幫忙**附著在上皮細胞**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/V.cholerae_structure_under_electron_microscopy--including_structure_like_flagellum_and_type-IV_pili_1015.jpg)
+
+#### 為甚麼細菌變了
+- 學者它們去對霍亂弧菌的基因組進行解碼，然後發現很奇怪
+- 他的genome**有一小段的GC content異常的低**，這讓學者覺得，這一短原本根本不是弧菌的序列
+- 它們因此覺得這個基因可能是phage帶來的，並且將這種 "特別的，讓細菌毒力增強" 的特殊序列，叫做致病島 (**pathogenicity isiand**)
+- 例如霍亂弧菌的致病島就是**VPI-1**
+
+#### VP 的特徵
+- 有**toxin coregulayed pilus**的基因
+- 有類似phage的**integrase gene (int)**
+- 類似**轉座酶**的基因
+- **attP**，接觸細菌基因組的區域
+
+#### att
+- $\lambda$ phage 形成環狀後，**attP (phage att)** 會跟**attB (bacteria att)** 接觸，並且整合
+- 兩邊的att會像是mosaic一樣整合，為了簡單說明，**左邊的鑲嵌att叫做attL，右邊就是attR**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/genetic_organization_of_VPI-1_in_V.%20cholerae_1015.png)
+
+> [!Note]
+> - **DNA transposon** 的transposase 主要辨認transposon 兩端的TIR，把transposon 剪下或複製後插入新的DNA 位置，但是對插入位置**通常只有motif preference，而不是固定的genomic att site**
+> - **Phage integration** 通常**比DNA transposon 更site-specific**，因為integrase 會辨認特定固定的genomic att sites 🐱
+
+### 第二次共感染
+- VPI-1 有phage-like origin，早期被稱為VPI $\phi$ ，但它現在通常被較保守地視為一個phage-like pathogenicity island，已經不再 "跳躍"
+- 所以霍亂弧菌基本大家都帶著VPI-1，以及TCP cluster，但這不代表這些弧菌每個都會導致拉肚子
+- 除非...弧菌又被一種phage感染 (CTX $\phi$ )，這個phage的基因裡面就是sequence霍亂毒素
+- 主要編碼CT的基因也被稱為 *ctxAB*
+- 這導致細菌可以同時啟動 TCP 與 ctxAB，使定殖與毒素產生在腸道中同步發生
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/V.%20cholerae_become_pathogenic_due_to_the_infection_of_phage_CTX%CF%86_which_imported_ctxAB_gene_1015.png)
+
+#### CT
+- cholera toxin (CT) 是一種 $AB_5$ toxin
+   - $B_5$ subunit: 由五個 B subunits 組成，負責辨識宿主細胞表面的 GM1 ganglioside。
+   - $A$ subunit: 負責毒性作用，其中的 **A1 fragment** 具有 ADP-ribosyltransferase 活性
+
+> [!Tip]
+> - 也就是說，**B subunits 負責把毒素送進正確的地方，A1 subunit 負責動手腳**
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/1S5E_Cholera%20holotoxin%2C%20Crystal%20form%201.html" width="100%" height="600px"></iframe>
+
+- 有致病能力的霍亂弧菌，前提是他跟CTX $\phi$ co-exists
+- 要是有機會，你可以看到霍亂患者的腹瀉上清液裡面，有絲狀的物質，這其實就是絲狀phage ，也就是 CTX $\phi$
+- 同時，研究者也在實驗中看到這種毒素的威力
+- 下圖為實驗的控制組跟實驗組 (是否有加入0.4 $\mu g$ 的霍亂毒素) 的兔子大腸，可以發現，實驗組的大腸lumen裡面，明顯有出現water efflux
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/inoculating_cholera_toxin_into_a_section_of_rabbit_small_intestine_triggers_efflux_of_water_into_the%20lumen_1015.png)
+
+### GPCR 又來了
+- 正常的 $G_s\alpha$ 就像一個有自動關機功能的開關：
+   - **GDP-bound**：通常是 inactive state。
+   - **GTP-bound**：active state，可以刺激 adenylyl cyclase。
+   - **GTP hydrolysis**：回到 GDP-bound state，終止刺激
+
+#### shutoff 失調
+- **Cholera toxin** 會對 $G_s\alpha$ 進行 ADP-ribosylation，抑制它的 GTPase-mediated shutoff。
+- 更精確地說，毒素的 A1 fragment 利用 $NAD^+$ 作為 **ADP-ribose donor**，將 **ADP-ribose 共價修飾**到 $G_s\alpha$ 的特定 arginine residue (經典上為 Arg201)
+- 這個修飾使 $G_s\alpha$ 失去正常關閉訊號的能力，無法自行水解GTP
+
+#### 接下來
+- 細胞內 **cAMP 增加，活化 protein kinase A** (PKA)
+- PKA 磷酸化 **CFTR (cystic fibrosis transmembrane conductance regulator)**，促進其氯離子通道活性
+- 腸上皮細胞向腸腔分泌更多 $Cl^-$ ， $Na^+$ 會因電化學梯度與旁細胞路徑等機制移動，維持整體電荷平衡
+- 腸腔內的電解質增加，水分便跟著滲透梯度進入腸腔 (呀呼～ 🙂)
+
+
+> [!Tip]
+> - CFTR 本來就存在，**主要功能是調控lumen環境，維持腸道一定的濕潤度**
+> - ADP ribose 就是 **ADP 的** $\beta$ **-磷酸基上面多加上一個核糖** (簡單吧) 😏
+
+![image alt](https://www.frontiersin.org/files/Articles/1155751/fmed-10-1155751-HTML/image_m/fmed-10-1155751-g002.jpg)
