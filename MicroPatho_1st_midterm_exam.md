@@ -27,13 +27,15 @@ title: MicroPatho_1st_midterm_exam
 - colonization resistance: 有益菌先搶先贏
 - 例如*L. bifidobacterium*、大腸桿菌等等
 
+
 > [!Note]
-> 但是有時也會變成病原菌，例如... 長太多、免疫力下降、跑到怪怪的地方 (例如血液) 🤣
+> - 但是有時也會變成病原菌，例如... 長太多、免疫力下降、跑到怪怪的地方 (例如血液) 🤣
+> - E.coli在 urinary tract 沒啥事情，但是如果進到血液裡，很容易sepsis (敗血症)
 
 ##### opportunistic
 - 通常沒有什麼傷害，但也沒什麼好處
 - 但是，一樣，如果你亂吃抗生素、免疫力降低，屏障被破壞，然後就會生病
-- 例如*S. aureus*
+- 例如*S. aureus*，長在鼻子跟皮膚上
 
 ##### pathogenic
 - 恭喜，它們通常不在我們的身體裡 🙂
@@ -42,27 +44,41 @@ title: MicroPatho_1st_midterm_exam
 ![image alt](https://gutbasket.com/cdn/shop/articles/microbiome-explained-everything-you-need-to-know-20-min-read-666658.jpg?v=1679171834)
 
 #### incubation perio
-- 這種病原菌就是，你剛開始會有和這種pathogen的攻防戰 (急性期)，然後你們有一天似乎暫時達成和平 (潛伏期)
-- 結果其實這個病原菌就藏在身體裡面，然後等到時間一到，就再次發病，例如HIV
+- 這種病原菌就是...
+  - 你剛開始會有和這種pathogen的攻防戰 (急性期)
+  - 然後你們有一天似乎暫時達成和平 (潛伏期)
+  - 結果其實這個病原菌就藏在身體裡面
+  - 然後等到時間一到，就再次發病，例如HIV
 
 > [!Note]
-> AIDS發病 = CD4 T cell < 200 /$\mu l$
+> - AIDS發病 = CD4 T cell < 200 /$\mu l$
+> - 也會經過 **acute viremia phase、clinical latency phase、Onset of AIDS**
+> - 這時機會性感染就容易把個體打死 (surprise, motherfucker. 🙂)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/pneumocystis_pneumonia--x-ray_scan_1104.jpg)
 
 #### entry
 - 進到身體的方式包含: 
-   - **inhalation (空氣傳染)**，例如炭癯桿菌
+   - **inhalation (空氣傳染)**，例如炭癯桿菌、流感病毒、漢他病毒
    - **ingestion** (通常為糞口傳染)，例如霍亂弧菌和E. coli
    - **昆蟲或是動物**，例如瘧疾、萊姆病
    - **性行為傳染** (STD)
    - **傷口感染** (手術消毒不良)
-   - **器官移植**，例如輸血造成感染
+   - **器官移植**，例如輸血或是角膜 (cornea) 造成感染
 
 #### establish
-- 假如說你的病原體不多，結果剛進去身體，就被胃酸殺掉
+- 假如說你的病原體不多，結果剛進去身體，就被胃酸殺掉，例如霍亂弧菌就是非常怕酸的東西
+- 但是量多取勝，哪怕只有一滴滴弧菌能夠活著進入小腸，個體也差不多可以發病了
 - 因此，有三個東西會影響會不會導致疾病
-   - **inoculum size** (跑進去的微生物量，也就是dose)
+   - **inoculum size** (跑進去的微生物量，也就是**dose**)
    - 微生物本身對於生物的**致病力**
    - 你身體弱不弱 (物理跟生物**免疫**)
+
+> [!Important]
+> ##### by the way 🐱
+> - 所謂的dose，不只是 "你吸收多少菌的問題"，還有 "有多少菌可以影響target的tissue"
+> - 如果致病力高 (highly virulent)，通常要 "establish" 就不需要那麼多dose
+> - 所謂的免疫還包含著物理上的，例如你的胃酸夠不夠的問題 🤣
 
 #### MOI
 - **multiplicity of infection**，也就是感染複數
@@ -75,9 +91,10 @@ $$MOI = \frac{\text{細菌濃度}\times \text{接種體積}}{\text{細胞數量}
 > - A: 一個培養皿要有 $20 \mu l$ 細菌原液 😗
 
 #### damage
-- 這種所謂的damage，可能只是皮膚受損 (例如痤瘡)，或是比較嚴重的東西 (例如肺炎)
+- 即使病原體到達了，也不代表你會發病
+- 注意，這種所謂的damage，可能只是皮膚受損 (例如痤瘡)，或是比較嚴重的東西 (例如肺炎)
 - 所謂的tissue trauma，可以是凋亡，或是壞死
-- 當然，這樣比起來，所謂的 "微生物把細胞打爆" 的說法，比較像是necrosis或是pyrotosis
+- 當然，這樣比起來，所謂的 "微生物把細胞打爆" 的說法，比較像是necrosis或是pyrotosis 🫯
 
 > [!Note]
 > - Q: 為什麼要問糞便的狀態? 
@@ -85,17 +102,20 @@ $$MOI = \frac{\text{細菌濃度}\times \text{接種體積}}{\text{細胞數量}
 
 #### apoptosis
 - 程序性細胞死亡，**PCD**
-- 來自古希臘文的 "掉落、衰落"
+- 來自古希臘文的 "掉落、衰落" (像樹葉一樣 🍃)
 - 會發出訊號，叫細胞死，而且不要弄太多亂事 (例如避免引起免疫反應)
 - 要是細胞不會聽話死掉，恭喜，你是癌症天選之子，手指間還會黏在一起 (webbed fingers)
-- 那太多apoptosis呢? 恭喜，要是細胞長不回來，例如neuron，那AD跟PD就是一種
+- 因為 apoptosis 也是胚胎發育非常重要的步驟
+- 那太多apoptosis呢? 恭喜，要是細胞長不回來，例如neuron，那AD、HD跟PD就是一種
 
 > [!Note]
 > 死掉太少會增加癌症風險，死掉太多可能和神經退化相關 😗
 
-- 通常會有兩個死法: 
+- 通常會有兩個死法: **intrinsic and extrinsic**
 
-##### intrinstic
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/extrinsic_and_intrinsic_apoptosis_pathway_comparison_1104.png)
+
+##### intrinsic
 - 這通常和粒線體有關，例如氧化壓力、DNA破壞 (hello p53)、缺氧等等
 - 這種內部調節由兩種蛋白互相調節: 
    - Bcl-2/Bcl-X: 抗凋亡蛋白
@@ -103,14 +123,19 @@ $$MOI = \frac{\text{細菌濃度}\times \text{接種體積}}{\text{細胞數量}
 - 如果促進cytochrome c從粒線體跑出去，會促進apoptosome的形成
 - 凋亡小體會活化caspase-9，進而活化caspase-3, 7，導致DNA斷裂，最終凋亡
 
+<iframe src="https://Jacklyn301.github.io/molecular_model/3J2T_An%20improved%20model%20of%20the%20human%20apoptosome.html" width="100%" height="800px"></iframe>
+
 ##### extrinsic
 - 來自外部的死亡信號
-- 相關的受體接收ligands，招募adaptor protein，以及形成 DISC (死亡誘導訊號複合體)
+- 相關的受體接收ligands，招募adaptor protein: FADD，以及形成 DISC (死亡誘導訊號複合體)
 - DISC活化caspase-8,10，進而活化Caspase-3,7，導致DNA斷裂
+
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/9NCQ_Cryo-EM%20structure%20of%20Fas-FADD%20complex.html" width="100%" height="550px"></iframe>
 
 #### 細胞感染的防衛機制
 - 在細胞受到感染時，受體Fas的表達會增加，並且分布在細胞膜上面
-- 當遇到了NK cell時，該細胞會和他結合，啟動FADD和DISC (外部誘因)
+- 當遇到了NK cell時，該細胞會和他結合，啟動FADD和DISC (也就是剛剛提到的外部誘因)
 - 這就是細胞免疫的機制之一
 
 #### 不同角度對於apoptosis的看法
@@ -123,19 +148,27 @@ $$MOI = \frac{\text{細菌濃度}\times \text{接種體積}}{\text{細胞數量}
 
 ### phage
 - 基因組可以是ssDNA (M13、 $\phi$ X174)，或是dsDNA (T4)，或是ssRNA (MS2)，或是dsRNA ( $\phi$ 6) 
-- 頭部通常是正二十面體 (當然，M13沒有頭，他就是一根麵條)
+- 頭部通常是正二十面體 (當然，M13沒有頭，他就是一根麵條，所以又稱絲狀病毒)
 - 他可以控制細菌，複製嗜菌體自身的genome，然後產生新的phage
-- 尾部以及腳，通常包含尾管 (tail tube)，以及尾鞘 (tail sheath)
+- 尾部以及腳，通常包含尾管 (tail tube，讓DNA穿過)，以及尾鞘 (tail sheath，使 phage 附著在細胞表面)
 
 > [!Note]
-> \lambda phage是有尾鞘的，只是... 就一根腳 🙂
+> $\lambda$ phage是有尾鞘的，只是... 就一根腳 🙂
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/Schematic_representation_of_the_main_types_of_phages_1104.png)
 
 
 #### bacteriophage lambda
 - 有溶解循環跟溶原循環兩種
-- lysogenic:雙股DNA變成前嗜菌體 (prophage)，**整合進宿主的基因體**
+- lysogenic，也就是雙股DNA變成前嗜菌體 (prophage)，**整合進宿主的基因體**
+
+> [!Tip]
+> - lytic: 附著、DNA注射、合成蛋白質、組裝、溶解細胞、釋放新的phage
+> - lysogenic: 附著、注射、整合、搭宿主複製便車 😗
+
 - 一旦受到某些刺激，例如環境不佳，前嗜菌體就會脫離，進行溶解循環。
 - 其DNA有**黏性末端，注入細胞後會環化**，這個時候，不同的轉錄途徑會影響是否會產生溶原循環
+
 
 |特徵	|Lytic cycle|Lysogenic cycle|
 |---|---|----|
@@ -154,29 +187,24 @@ $$MOI = \frac{\text{細菌濃度}\times \text{接種體積}}{\text{細胞數量}
 - 例如皮膚
 
 ##### Chemical
-- 皮膚因為正常細菌保護產生的油脂
-- 胃酸
-- 組織內的抗菌肽
-- 細胞內的水解酶
-- 小腸內的膽鹽
-- 補體系統
+- 皮膚因為正常細菌保護產生的油脂、胃酸、組織內的抗菌肽、細胞內的水解酶、小腸內的膽鹽、補體系統等
 
 ##### cellular
-- 嗜中性球、巨噬細胞
+- 嗜中性球、巨噬細胞等
 
 #### 後天性免疫
 - **Humoral**: antibidy (IG, made by B cells)
-- **Cell mediate** (T cell)
+- **Cell mediate**: (T cell)
 
 > [!Tip]
-> 後天性免疫在宿主遭到第二次感染時，會以更快，力度更大的方式清除病原體，這可以從antibody在血液中的濃度飆升幅度來看 🐱
+> - 後天性免疫在宿主遭到第二次感染時，會以更快，力度更大的方式清除病原體，這可以從antibody在血液中的濃度飆升幅度來看 🐱
 
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/primary_and_secondary_immune_response_0411.png)
 
 #### Antigen
 - 抗原會特異性的結合於抗體，尤其是在後天性免疫
-- 當然，一個抗原會有不同抗原結合域 (epitope)，所以可能可以被多個抗體辨識
+- 當然，**一個抗原會有不同抗原結合域 (epitope)**，所以可能可以被多個抗體辨識
 
 ![image alt](https://www.genscript.com/gsimages/news/discovering-antibodies-with-broader-epitope-specificities-1.png)
 
@@ -200,8 +228,11 @@ $$MOI = \frac{\text{細菌濃度}\times \text{接種體積}}{\text{細胞數量}
   - 釋放化學物質，影響神經信號: 痛覺
 - 包含的成員...
   - mast cell: 釋放組織胺，導致血管擴張、血管通透性增加
-  - phagocyte: 從血管內皮縫隙鑽出來
-  - 補體系統: 增加細菌穿孔、促進phagocyte的吞噬作用 
+  - phagocyte: 從血管內皮縫隙鑽出來 (呀呼~)
+  - 補體系統: 增加細菌穿孔、促進phagocyte的吞噬作用 (補體本身就有調理作用)
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/6H03_Open%20conformation%20of%20the%20membrane%20attack%20complex.html" width="100%" height="750px"></iframe>
+
 - phagocyte的促進活化，可以受到以下影響: 
 ##### opsonin
 - 在希臘文就是... 好吃的意思
@@ -270,12 +301,12 @@ style c fill:#86e55d, stroke:#333
 #### 吞噬作用步驟
 - 偽足 (pseudopod) 包圍病原體
 - 產生吞噬小體 (phagosome)
-- 吞噬小體會和溶體結合，溶體pH值低 (例如裡面就有鹽酸)，也有水解酶
+- 吞噬小體會和溶體結合，溶體**pH值低** (例如裡面就有鹽酸)，也有**水解酶**
 - 融合後，就會降解病原體
-- 能夠做吞噬作用的免疫細胞，就是嗜中性球和巨噬細胞
+- 能夠做吞噬作用的免疫細胞，就是**嗜中性球和巨噬細胞**
 
 > [!Note]
-> phagosome + lysosome = phagolysosome 🐱
+> - **phagosome + lysosome = phagolysosome** 🐱
 
 ![image alt](https://static.vecteezy.com/system/resources/thumbnails/008/166/228/small_2x/phagocytosis-neutrophil-absorption-of-bacteria-mechanism-of-the-immune-system-medical-illustration-vector.jpg)
 
@@ -290,14 +321,14 @@ style c fill:#86e55d, stroke:#333
 
 > [!Tip]
 > ##### 遷移主要靠什麼?
-> - **chemotaxin** = 細胞因子中一群專門進行趨化作用的蛋白們
+> - **chemotaxin** = 細胞因子中一群專門進行趨化作用的蛋白們，也就是 **"趨化因子"**
 > - **diapedesis** = 白細胞從內皮細胞的間隙中鑽出血管
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/process_of_diapedesis_0926.jpg)
 
 #### 細胞因子風暴
 > [!Warning]
-> 為什麼不要讓嗜中性球全衝過來? 因為這會**導致 "血球滲漏" 的現象 !** 💀
+> - 為什麼不要讓嗜中性球全衝過來? 因為這會**導致 "血球滲漏" 的現象 !** 💀
 
 - 舉例，你的肺泡是不可能會有血球的，但是在肺炎發生時，這些嗜中性球會衝入肺泡間隙，造成嗜中性球浸潤 **(neutrophilic infiltration)**
 
@@ -313,6 +344,9 @@ style c fill:#86e55d, stroke:#333
 #### macrophage
 - 來自於單核球的分化，但是單核球的包吞作用比較沒有那麼強
 - 單核球會跑到各個不同的器官內，並且在該處形成專一性的，更分化的巨噬細胞，因此不同器官的巨噬細胞都有點不一樣
+  - 如果是肝臟的巨噬細胞，就是 **Kupffer cells**
+  - 如果是大腦的巨噬細胞，就是 **microgila**
+  - 如果是骨頭的巨噬細胞，就是 **osteoclasts**
 - 除了吞噬病原體，他也會做清道夫，或著是進行組織的修剪
 - 當辨識DAMP並吞噬後，他可能會釋放cytokine，募集更多的白血球
 - 這些白血球可以是募集先天，或是後天的免疫
@@ -326,8 +360,8 @@ style c fill:#86e55d, stroke:#333
 > 先天性免疫根本就沒有辨識敵我的才能 (眼瞎)，他們是怎麼做到的? 🧐
 
 - **PAMP: 病原體相關分子模式**，是病原體身上一些，可能可以被先天免疫辨認的東西
-- 這些分子往往都是病原體打死都不可或缺的物質
-- 病原菌表面會有一些特定的東西，例如**脂多醣 (LPS)、peptidoglycan**
+- 這些分子往往都是病原體打死都不可或缺的物質 (通常啦)
+- 病原菌表面會有一些特定的東西，例如**脂多醣 (LPS)、peptidoglycan、鞭毛蛋白等**
 - 而辨識這些PAMP的受體，統稱為**PRRs**
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/overview_of_pattern_recognition_receptors_0926.png)
@@ -352,10 +386,16 @@ style c fill:#86e55d, stroke:#333
 - 細菌基本上一定有細胞壁 (通常啦)，會被PRRs辨認
 
 > [!Warning] 
-> 有一個概念要理解，就是這些先天免疫的PRRs，其實是**演化下來後，生來就辨識某種PAMPs**。它們是天生可以看到LPS等物質
+> - 有一個概念要理解，就是這些先天免疫的PRRs，其實是**演化下來後，生來就辨識某種PAMPs**。它們是天生可以看到LPS等物質
 
 - 抗體不一樣的地方就是，即使PRR沒有辨識某個新的物質，只要抗體可以接上去，先天免疫細胞就看的到
-- 所以過程通常都是這樣: 先天免疫會先啟動，眼半瞎摸摸看看有沒有PAMPs，一直到後天性免疫丟出抗體，讓辨識力增強
+- 所以過程通常都是這樣: 先天免疫會先啟動，眼半瞎摸摸看看有沒有PAMPs，有偵測到PAMPs先攻擊看看，一直到後天性免疫丟出抗體，讓辨識力增強
+
+|Innate Immunity|Adaptive Immunity|
+|---|---|
+|Immediate response|responds slower (over days)|
+|not antigen-specific but recognize PAMPs|Antigen-specific|
+|Exposure does not lead to immunologic memory|2nd exposure lead to immunologic memory|
 
 ##### 舉個例子: 鼠傷寒桿菌
 - 這兩個鼠傷寒桿菌的毒性不一樣，但是PAMP一模一樣，對於先天性免疫來說，它們一模一樣，根本不知道誰好誰壞
@@ -369,10 +409,10 @@ style c fill:#86e55d, stroke:#333
 
 > [!Tip]
 > - 以下是不同TLR辨認的PAMPs，盡量都記起來喔呵呵 🙂
->   - TLR-3: dsDNA
->   - TLR-4: 脂多醣
->   - TLR-5: 鞭毛蛋白 (flagellin)
->   - TLR-7、TLR-8: ssRNA
+>   - **TLR-3**: dsDNA
+>   - **TLR-4**: 脂多醣
+>   - **TLR-5**: 鞭毛蛋白 (flagellin)
+>   - **TLR-7、TLR-8**: ssRNA
 
 - 這些受體活化後，會促進 NF- $\kappa$ B pathway
 - NF- $\kappa$ B是一個轉錄因子，基本上調控的基因大多是有關於促炎的細胞因子
@@ -380,14 +420,16 @@ style c fill:#86e55d, stroke:#333
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/various_types_of_toll-like_receptor_0926.png)
 
+<iframe src="https://Jacklyn301.github.io/molecular_model/8WO1_Cryo-EM%20Structure%20of%20Human%20TLR4-MD2-DLAM5%20Complex.html" width="100%" height="600px"></iframe>
+
 #### NLR
 - 也是原本先發現NOD protein，然後才發現
-- 這東西會偵測細胞內的PAMP，也會trigger NF-kappa B
-- 同時，他也會產生inflammasome (發炎小體)，發炎小體可以做兩件事情: 
+- 這東西會偵測細胞內的PAMP，也會trigger NF- $\kappa$ B
+- 同時，他也會產生 **inflammasome (發炎小體)**，發炎小體可以做兩件事情: 
 
 #### inflammasome
 - 在產生發炎小體之前，會先啟動caspase-1
-- 之後caspase-1會活化IL-1 beta、IL-18，最後**導致pyrotosis**
+- 之後caspase-1會活化IL-1 $\beta$ 、IL-18，最後**導致pyrotosis**
 
 <iframe src="https://Jacklyn301.github.io/molecular_model/8EJ4_Cryo-EM%20structure%20of%20the%20active%20NLRP3%20inflammasome%20disk.html" width="100%" height="500px"></iframe>
 
@@ -407,7 +449,7 @@ style c fill:#86e55d, stroke:#333
 > [!Important]
 > 細胞焦亡的前提，就是**TLR跟NLR都活化** (因為TLR才會促進未活化的細胞因子轉錄出來) !
 
-![image alt](https://www.frontiersin.org/files/Articles/879021/fnagi-14-879021-HTML/image_m/fnagi-14-879021-g001.jpg)
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/cooperation_of_TLR_who_transcript_pro-cytokine_and_NLR_who_forms_inflammasome_with_NEK_and_pro-caspase-1_trigger_pyroptosis.jpg)
 
 #### 最後補充: 嗜中性球跟巨噬細胞的比較
 
@@ -425,20 +467,21 @@ style c fill:#86e55d, stroke:#333
 ##### cell-mediated immunity
 - 主角是胞毒性T細胞，Tc一定需要跟感染細胞有接觸，才有可能導致對方的細胞凋亡
 
-![image alt](https://www.frontiersin.org/files/Articles/848582/fimmu-13-848582-HTML/image_m/fimmu-13-848582-g001.jpg)
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/overview_of_cellular_immune_response_and_humoral_response_1104.jpg)
 
 #### B cell
 - B cell 上面有受體，可以辨識特定 "抗原"
-- 如果受體接觸到抗原，B cell會開始不斷複製 (clonal expansion)，並且分化為漿細胞
+- 如果受體接觸到抗原，B cell會開始**不斷複製 (clonal expansion)**，並且分化為漿細胞
 - 漿細胞的細胞質會大幅增加，ER的portion增加，為了大量製造所謂的B cell受體，也就是抗體
 
-![image alt](https://as2.ftcdn.net/jpg/12/83/07/41/1000_F_1283074111_Lsz6Y12nWXNpYGwXviygOlOaRLBPGset.jpg)
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/B-cell_activation_image_1104.jpg)
 
 #### T cell
 - 也有自己特定的受體，負責辨識 "抗原呈現細胞"
 - 病原體無論是被巨噬細胞或是嗜中性球吞噬，或是一般細胞被感染，病原體的部分片段都會被呈現在細胞膜上
 - 呈現抗原的 "手臂"，就是MHC (主要組織相容複合體)
 - 受感染的細胞上面如果有相應的抗原，配對的T cell就會target這個受感染的細胞，將其凋亡
+- 和 B cell 一樣，一旦辨識確認，就會開始不斷複製自己 (clonal expansion)
 - 通常來說...
    - **MHC I:** 呈現的抗原由Tc cell (CD8+) 辨識
    - **MHC II:** 呈現的抗原由Th cell (CD4+) 辨識
@@ -460,7 +503,7 @@ style c fill:#86e55d, stroke:#333
 > - **B cell 在骨髓中成熟**
 > - **T cell 會遷移到胸腺再成熟**
 
-![image alt](https://scispace.com/ai-agent-seo/page-thumbnails/t-cell-development-in-thymu-b5qbizoj.png)
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/process-of-t-cell-development-in-thymus_1104.png)
 
 #### 抗體的功能
 - **neutralization (中和作用):** 讓一些原本很毒的東西，降低甚至抑制他跟別的東西接觸，避免他傷害其他細胞
@@ -469,11 +512,15 @@ style c fill:#86e55d, stroke:#333
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/neutralization_and_opsonization_0926.jpg)
 
 #### dendritic cell
-- 原本的樹突細胞可以在血液或是組織中，而且尚有吞噬能力，但是一旦遭遇病原體成熟後，他會遷移至淋巴結
-- 成熟的樹突細胞主要就是呈現抗原給T cell，成為APCs，自己也幾乎不吞噬了
+- 原本的樹突細胞可以在血液或是組織中，而且尚有吞噬能力，但是一旦遭遇病原體後，他會成熟
+- 成熟後，他會遷移至淋巴結
+  - 成熟前: 習慣待在周邊組織或是血液中
+  - 成熟後: 淋巴結駐紮 🙂
+- 成熟的樹突細胞主要就是呈現抗原給T cell，成為超厲害的 APCs，自己也幾乎不吞噬了
 - 呈現抗原的方式也是用MHC，只是他**兩種MHC (I、II) 都有**
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/dendritic_cell_can_present_antigen_to_both_Th_cell_and_Tc_cell_with_MHC_I_and_II_0926.jpg)
+
 
 ---
 
@@ -488,7 +535,7 @@ style c fill:#86e55d, stroke:#333
 - 畢竟，約三分之一的人鼻子裡就住著這種東西
   - **starphyle**，是希臘文中的 "葡萄"
   - **aureus**，是拉丁文中的 "金色"
-  - **coccus**則是 "球菌"
+  - **coccus** 則是 "球菌"
 - 如果造成感染，產生的症狀包含: 
    - **abscesses** (含有pus的傷口，也就是膿瘡)
    - 嚴重時導致**敗血症 (sepsis)** 或是**肺炎 (pneumonia)**
@@ -498,14 +545,15 @@ style c fill:#86e55d, stroke:#333
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/staphylococcus-bacteria-cultured-colonies-of-staphylococcus-aureus-bacteria-in-a-petri-dish_1001.jpg)
 
 > [!Note]
-> 他造成機會感染的原因，基本上就是因為... **長錯位置，不小心跑進身體裡了** 🤣
+> - 他造成機會感染的原因，基本上就是因為... **長錯位置，不小心跑進身體裡了** 🤣
 
 #### 橄欖球事件
 - 2003年正是美式足球興盛的時候，這種撞來撞去的比賽，時不時有受傷是正常的
 - 然而，當時有球員出現abscess，而且由於是金黃色葡萄球菌，所以通常需要用抗生素。醫生打算利用抗生素治療
-- 但是發現沒用，膿瘡長久無法癒合，因此，CDC就介入採樣，最後確認是被MRSA感染
-- 之後運動界就強力要求，如果感染就要立即介入，不然會傳染 (搞的跟流行病似的 💀)
-- NCAA等組織也開始貼了一堆海報，例如寫著標題像是...
+- 但是發現沒用，膿瘡長久無法癒合，因此，CDC (Centers for Disease Control and Prevention) 就介入採樣
+- 最後確認是被MRSA感染 (oops 🙂)
+- 之後運動界就強力要求大家好好保持乾淨，洗手洗腳，積極檢查，如果感染就要立即介入，不然會傳染 (搞的跟流行病似的 💀)
+- NCAA (National Collegiate Athletic Association) 等組織也開始貼了一堆海報，例如寫著標題像是...
 
 > [!Note]
 > *a good player will pass the ball, not staph (S.aureus)* 😎
@@ -514,7 +562,7 @@ style c fill:#86e55d, stroke:#333
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/CDC_and_NCAA_launched_an_educational_campaign_to_control_the_infection_of_MRSA_1001.png)
 
-- 台灣似乎比較少這種狀態，也比較少提及MRSA，多數S. aureus事件跟拉肚子或是食物中毒比較有關
+- 在東亞似乎比較少這種狀態，也比較少提及MRSA，多數 *S. aureus* 事件跟拉肚子或是食物中毒比較有關
 
 ### Host-pathogen interaction
 #### 對於宿主來說
@@ -533,7 +581,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 |---|---|---|
 |1| $O_2\cdot^-$ |NADPH oxidase|
 |2| $H_2 O_2$ |SOD，超氧化物歧化酶|
-|3| $\cdot OH$ |Fenton反應，過氧化氫和三價鐵離子反應|
+|3| $\cdot OH$ |Fenton 反應，過氧化氫和三價鐵離子反應|
 
 #### NETosis
 - NETs就是嗜中性球**利用自己的染色體網住病原體**，這個網裡面也有一堆別的東西，但主要就是DNA跟組蛋白
@@ -550,22 +598,26 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 
 
 - 同時，**細菌本身也有酵素 (例如catalase)**，可以去處理ROS，讓嗜中性球的氧化爆發也拿他沒轍
+  - Staphyloxanthin: 物理性scavenger
+  - catalase: 分解過氧化氫
+  - alkyl peroxidase: 分解 ROOH 和少量過氧化氫
 
 #### PVL
-- **panton-valentine leukocidin**，也就是弒白血球素，在結構上和hemolysin有點像 (功能也差不多 🙂)
-- 這些蛋白由細菌製造，例如LukS、LukF，這些蛋白辨識細胞膜後，就會開始聚合，在膜上打洞
-- 這種主要以孔上打洞為主的殺宿主毒素，也被稱為pore-forming toxin (PFT)
+- **panton-valentine leukocidin**，也就是弒白血球素，在結構上和 hemolysin 有點像 (功能也差不多 🙂)
+- 這些蛋白由細菌製造，例如 **LukS、LukF**，這些蛋白碰到細胞膜 (通常是辨識宿主細胞膜上的受體) 後，就會開始聚合，在膜上打洞
+- 這種主要以孔上打洞為主的殺宿主毒素，也被稱為 **pore-forming toxin (PFT)**
 - 不同細菌有不同的PFT
 
 <iframe src="https://Jacklyn301.github.io/molecular_model/6U3Y_Structure-based%20discovery%20of%20a%20novel%20small-molecule%20inhibitor%20of%20methicillin-resistant%20S.%20aureus.html" width="100%" height="500px"></iframe>
 
 ### 水平基因移轉
 - 分為三種，我不想翻譯了，直接記住英文 🙂🙂
-   - conjugation (利用sex pilus傳遞質體、轉座子)
-   - transduction (透過phage的遺傳物質卡在自己的genome)
-   - transformation (從環境裡面直接抽獎)
+   - **conjugation** (利用sex pilus傳遞質體、轉座子)
+   - **transduction** (透過phage的遺傳物質卡在自己的genome)
+   - **transformation** (從環境裡面直接抽獎)
+- 而這些水平轉移的基因載體，可能包含 **plasmids、transposons、integrons** 等等
 
-![image alt](https://vignette.wikia.nocookie.net/uvmgg/images/4/47/Nrmicro1325-f2.jpg/revision/latest?cb=20121029205057)
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/transformation_transduction_and_conjugation_in_bacteria--horizontal_gene_transfer_1103.webp)
 
 #### 1.0、2.0、3.0版本
 - MSSA就是... 1.0版的金黃色葡萄球菌，還沒辦法抗methicillin (菜鳥)
@@ -573,7 +625,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 - 然後這傢伙雖然現在還是無法抵抗抗生素，但好歹可以給細胞穿洞了，成為2.0版細菌
 
 > [!Note]
-> 基本上，所有MRSA (3.0版) 都過了這一階段，因此如果你感染了MRSA，就看看你身體裡面有沒有PVL基因就可以
+> - 基本上，所有MRSA (3.0版) 都過了這一階段，因此如果你感染了MRSA，就看看你身體裡面有沒有PVL基因就可以 😗
 
 ##### gene cassettes
 - 這東西基本上有兩個東西: 
@@ -602,13 +654,13 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/beta-lactam_structure_in_antibiotic_1001.png)
 
-- 這一類的抗生素主要針對PBP，也就是負責聚合肽聚醣的酵素。這些酵素主要產生肽橋
+- 這一類的抗生素主要針對PBP，也就是負責聚合肽聚醣的酵素。這些酵素**主要產生肽橋**
 
 > [!Tip]
-> 醣鏈 (glycan chain) 合成**主要由 glycosyltransferase / transglycosylase 形成，而非PBP**
+> - 醣鏈 (glycan chain) 合成**主要由 glycosyltransferase / transglycosylase 形成，而非PBP**
 
 - beta-lactam可以使PBP失活，導致細胞壁不堅固
-- 然後細菌**就會爆炸 (osmotic lysis)**
+- 然後細菌**就會爆炸 (osmotic lysis)** 🫯
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/mechanism_of_penicillin_and_other_beta_lactam_antibiotic_1001.png)
 
@@ -619,17 +671,17 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/peptidoglycan_structure_0425.png)
 
 #### 補充: 細胞壁結構
-- **teichoic acid**: Gram (+) 的細胞壁裡面，帶負電的磷酸聚合物。他們插著這些東西
-- lipopolysaccharide (脂多醣): PAMPs的超醒目信號，會把免疫系統整個叫醒，存在於Gram (-)
+- **teichoic acid**: Gram (+) 的細胞壁裡面，帶負電的磷酸聚合物。把細胞壁跟細胞膜連在一起
+- **lipopolysaccharide** (脂多醣): PAMPs 的超醒目信號 (TLR4 辨識)，會把免疫系統整個叫醒，存在於Gram (-)
 
 ![image alt](https://onlinesciencenotes.com/wp-content/uploads/2018/08/gmm.png)
 
 > [!Tip]
-> 青黴素跟lysozyme，**對殺死Gram (+) 比較有效**
+> - 青黴素跟lysozyme，**對殺死Gram (+) 比較有效**
 
 #### 然後全球高興沒多久...
 - 使用青黴素兩年後，然後就抗藥性出現了
-- 他們在演化中出現了可以**水解並斷裂beta-lactam ring的酵素**，然後... 把它裝進gene cassette (大禮包又送給各位 🙂)
+- 他們在演化中出現了可以**水解並斷裂beta-lactam ring的酵素**，然後... **把它裝進gene cassette** (大禮包又送給各位 🙂)
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/chemical_mechanism_of_beta-lactamase_1001.png)
 
@@ -665,7 +717,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 - 所以當然是減少級聯反應的好，最好不要活化thrombin
 
 > [!Tip]
-> 我不允許你用你的剪刀，我只允許用我的剪刀:D
+> - 我不允許你用你的剪刀，我只允許用我的剪刀:D
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/physiological_host_defenses_immobilize_bacteria_through_the_activation_of_the_prothrombin_1001.png)
 
@@ -679,13 +731,21 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/coagulase_positive_and_negative_tube_1001.png)
 
 ### Nutritional Immunity
+- 過度金屬離子可謂 "人人都需要"，例如: 
+
+|metal|細菌可以用來建造...|
+|---|---|
+|iron|呼吸鏈、過氧化氫酶、很多氧化還原酵素|
+|zinc|結構穩定、轉錄因子、蛋白酶的輔因子|
+|manganese|超氧化物歧化酶（SodA／SodM）、對抗ROS|
+
 #### hemoglobin
 - 兩個alpha兩個beta，每一個亞基中間都有一個heme group
 
 <iframe src="https://Jacklyn301.github.io/molecular_model/3WTG_Crystal%20structure%20of%20Emu%20(dromaius%20novaehollandiae)%20hemoglobin.html" width="100%" height="500px"></iframe>
 
 - 而**細菌也需要鐵**，細菌會等到血球溶解時把二價鐵搶走
-- 因此，nutritional immunity的定義基本上就是: **把養分搶回來，讓細菌餓死**
+- 因此，**nutritional immunity** 的定義基本上就是: **把養分搶回來，讓細菌餓死**
 
 #### haptohlobin and hemopexin
 - 血球溶解時，hemoglobin會溶在血漿裡面，這時**haptoglobin (Hp) 會結合於完整的血紅蛋白**
@@ -694,7 +754,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 
 #### macrophage
 - 當他們產生吞噬小體時，這些吞噬小體也會主動把二價鐵 $Fe^{2+}$ 跟錳從細菌碎片裡面挖出來
-- 主動pump鐵的蛋白為NRAMP1
+- 主動pump鐵的蛋白為**NRAMP1**
 
 #### neutrophil
 - 會產生NGAL蛋白，主要捕獲三價鐵離子 $Fe^{3+}$
@@ -710,7 +770,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/siderophore_steal_iron_from_lactoferrin_and_NGAL_1008.jpg)
 
 > [!Note]
-> 二價鐵離子相對於三架鐵離子來得水溶
+> - 二價鐵離子相對於三架鐵離子來得水溶
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/multiple_host_mechanisms_sequester_iron_from_microbe_1008.png)
 
@@ -744,9 +804,16 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 
 #### straphyloferrin
 - 鐵鉤子勾住了鐵，還是需要運輸蛋白把鐵傳到細菌內部
-- 例如**staphyloferrin A用HtsABC**、s**taphyloferrin B用SirABC**來運輸
+- 例如**staphyloferrin A用HtsABC**、**staphyloferrin B用SirABC**來運輸
+
+3LHS_Open%20Conformation%20of%20HtsA%20Complexed%20with%20Staphyloferrin%20A.html
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/3LHS_Open%20Conformation%20of%20HtsA%20Complexed%20with%20Staphyloferrin%20A.html" width="100%" height="700px"></iframe>
+
 - 他的膜表面也可以用**蛋白質直接辨認heme (利用IsdA)**
 - 甚至會去**辨認血紅素 (利用IsdB、IsdH) !!**
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/4WJG_Structure%20of%20T.%20brucei%20haptoglobin-hemoglobin%20receptor%20binding%20to%20human%20haptoglobin-hemoglobin.html" width="100%" height="750px"></iframe>
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/mechanism_of_S.%20aureus_to_capture_hemoglobin_heme_and_iron_1008.png)
 
@@ -784,10 +851,13 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
     - **latent TB**: 潛伏期
     - **secondary TB**: 在免疫力下降時，病情 "復發"，導致發燒、咳嗽或是體重下降
 
+> [!Tip]
+> - primary 跟 secondary 之間，視個體情況而定，可能潛伏期會持續幾個月，甚至幾年 !! 😲
+
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/lung_infection_with_tuberculosis_1008.jpg)
 
 ### wax-like properties
-- MTB分裂的速度，**超級無敵慢**
+MTB分裂的速度，**超級無敵慢 (14小時才翻一倍)**
 - 因此，通常難以做實驗，因為實在生長太慢了
 - 他身上**表面的waxy膜**，讓它們並不會對任何有極性的東西可溶 (所以酒精沒用)
 
@@ -801,11 +871,11 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 
 #### acid fast
 - acid fast是在講染色特性
-- 通常利用**複紅染劑 (carbol fuchsin)** 去染色，然後加入acid-alcohol
+- 通常利用**複紅染劑 (carbol fuchsin)** 去染色，然後加入acid-alcohol (額，就是HCl + 醇類，不要想太多 🙂)
 - 洗去大部分顏色後，只有那些細胞壁外面有一層waxy的細菌還會有顏色，洗不掉
 
 > [!Tip]
-> 染上去 → acid-alcohol → 「你洗你媽。」→ 顏色還留著 🤣
+> - 染上去 → acid-alcohol → 「你洗你媽。」→ 顏色還留著 🤣
 
 - 之後**再加入甲基藍 (methylene blue)**，讓去色的細菌重新染成藍色
 
@@ -817,7 +887,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 - MTB產生的mycolic acid算是一種**另類防禦手段，使其不容易被免疫細胞辨認**
 
 > [!Tip]
-> 如果我把它製造mycolic acid的基因knock out，這傢伙基本上分分鐘死亡，也不具有致病性 🐱
+> - 如果我把它製造mycolic acid的基因knock out，這傢伙基本上分分鐘死亡，也不具有致病性 🐱
 
 #### capsule vs cell envelope
 - capsule通常是由多糖、蛋白質、一些脂質形成，不一定是必要，而且附著鬆散，有可能脫落，通常有**免疫逃脫的功能**
@@ -850,7 +920,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 #### 細胞內生長
 - 被macrophage吞噬的MTB**不會被溶體的酵素破壞**，因為包含他們的**phagosome沒有辦法跟lysosome結合**
 - 這些MTB基本上就會在phagosome裡面自己生長，同時把這裡當成抵禦外界攻擊的小空間 (MTB: 你人還怪好的勒 🙂)
-  - 目前認為，該細菌會分泌LAM (脂阿拉伯甘露聚醣)，避免其跟lysosome結合
+  - 目前認為，該細菌會分泌 **LAM (脂阿拉伯甘露聚醣)**，避免其跟lysosome結合
   - 當然，LAM本身是一種PAMPs，可以被免疫細胞辨認，所以免疫細胞可能會察覺不對勁... 然後就沒了 💀
 
 > [!Tip]
@@ -880,7 +950,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 - 在結構上，肉芽腫**最中間是壞死的組織，主要就是被MTB感染的死細胞**
 - 形成這種東西對於身體來說是個保護模式，但是其實它沒有特別厲害
 - granuloma 不是一個完美消毒室，它比較像 "把這群王八蛋關在一棟隔離大樓裡"
-- 第二層是充滿脂質的**泡沫巨噬細胞**，第三、第四層就是**epithelioid巨噬細胞，以及T細胞**
+- 第二層是充滿脂質的**泡沫巨噬細胞**，第三、第四層就是**epithelioid巨噬細胞 (細胞間連接，透過細胞因子維持 granuloma)，以及T細胞**
 - 只是，MTB這傢伙，在壞死的組織中間，**偶爾就是會吃泡沫細胞裡面的油脂** (謝謝自助餐)
 
 > [!Tip]
@@ -902,7 +972,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 > - 不過，通常來說，**MTB並不會產生毒素，也不會破壞細胞**，所以到底幹嘛會致命? 🤔
 
 #### 免疫系統攻擊
-- 高度的TNF- $\alpha$ 會導致cachexia (惡病體質)，炎症 level 增加
+- 高度的TNF- $\alpha$ 會導致 **cachexia (惡病體質)**，炎症 level 增加
 - cachexia的症狀包含肌肉流失、非自主式體重減輕、疲倦和食慾不振等等
 - 也就是說，細菌從肉芽腫破裂中出現，**最主要導致身體狀況變差的，其實就是免疫系統導致**
 - 有點類似細胞因子風暴的感覺
@@ -917,6 +987,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 #### Bacille Calmette-Guérin vaccine
 - 也就是**卡介苗**，是一種減毒後的**牛的分枝桿菌 (Mycobacterium bovis)** 所製成的活性疫苗
 - 接種 BCG 疫苗後，**通常不會導致結核病感染**
+
 
 ---
 
@@ -951,7 +1022,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 > - 台灣目前將李斯特菌症狀，規定為 **"第四級傳染病"**  🐱
 
 #### 接觸方式
-- 他可以在腐敗的個體上生活，例如土壤
+- 他可以在腐敗的個體上生活，例如土壤，腐食維生 (saprophytes)
 - 李斯特菌基本上感染的範圍很高，包含鳥類、哺乳類、甚至是兩棲類或是節肢動物 (也就是**人畜共患病，zoonoses**)
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/species_with_reported_isolation_of_Listeria_monocytogenes--table_from_WOAH_Terrestrial_Manual_1015.png)
@@ -961,7 +1032,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
   - **Listeria**: 紀念Joseph Lister，因為它對開放性手術的消毒做了巨大貢獻 
 
 > [!Tip]
-> 因此，只要食品工業一發生汙染，基本難以根除細菌
+> - 因此，只要食品工業一發生汙染，基本難以根除細菌
 
 #### 無所不在
 - 它廣泛存在於土壤、水、腐敗植物及部分食品生產環境中
@@ -1050,14 +1121,20 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 - 腸道內壁其實還有一些疙瘩，這些疙瘩裡面其實充滿這些免疫細胞
 - 這些疙瘩也被稱為**peyer's patches**
 - 裡面基本上就是樹突細胞、巨噬細胞、T cell 跟 B cell，所以基本上甚至可能出現後天性免疫
+- 除此之外，絨毛跟絨毛之間凹陷處，有所謂的 **paneth cell**，可以分泌抗菌肽
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/peyers_patch_histology_1015.png)
 
 #### 反過來抑制
-- 假如說李斯特菌是被巨噬細胞吞掉，巨噬細胞會遷移到這一大堆免疫細胞堆中
+- 假如說李斯特菌是被巨噬細胞 (M cell) 吞掉，巨噬細胞會遷移到這一大堆免疫細胞堆中
 - 然後細菌就完了，呵呵 🙂
 - 其中一個特別的細胞因子是**IFN** $\gamma$ ，這會促進更多免疫細胞聚集、產生更多細胞因子
 - 最後的路徑甚至能**直接block掉inlA介導的胞吞作用** (主要就是**降低goblet cell的成熟速度**，讓他們還沒辦法吞外界的東西)
+
+> [!Note]
+> - 李斯特菌的進來方法:
+>   - 透過 macrophage (M cell)
+>   - 透過 goblet cell 🐱
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/the_defense_of_human_body_against_Listeria_monocytoge_is_triggered_by_immune_system_and_cytokine_IFN_gamma_1015.png)
 
@@ -1081,7 +1158,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 
 ### 胎盤呢
 - placenta裡面有樹枝狀的 "絨毛"，也就是chorionic villi，為了跟母體的血液做養分的交換
-- 而嬰兒跟母體血液的隔板，就是**合體滋養細胞 (syncytiotrophoblasts)**
+而嬰兒跟母體血液的隔板，就是**合體滋養細胞 (syncytiotrophoblasts, STB)**
 - 而還會有一堆細胞往外繼續往母體血液的空間跑 (螞蟻?) ，擴張絨毛的表面積，被稱為**外絨毛滋養細胞 (extranillous trophoblast)**
 
 #### 感染
@@ -1089,6 +1166,7 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 - STP會分泌CSF-1、MCP-1，這就會招募巨噬細胞跟嗜中性球過來
 - 這些細胞倒不是直接殺敵，而是分泌別的細胞因子，讓NK cell過來
 - NK cell 產生的 IFN- $\gamma$ 可以讓macrophage的攻擊對象更加精準，不會吃掉所有螞蟻細胞，而是殺死那些已經被感染的螞蟻細胞
+- 甚至NK cell 會注射 granulysin (一種抗菌肽) 到感染的螞蟻中，這樣不會殺死螞蟻，但會殺死裡面的細菌 ! 😲
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/secretion_of_CSF-1_and_MCP-1_recruit_neutriphils_and_macrophage_in_placenta_1015.png)
 
@@ -1128,6 +1206,10 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/V.cholerae_structure_under_electron_microscopy--including_structure_like_flagellum_and_type-IV_pili_1015.jpg)
 
 #### 為甚麼細菌變了
+
+> [!Tip]
+> - 這些傢伙在海中或是湖水中生成biofirm、跟光合浮游生物一起好好生活不就得了，幹嘛要找我們麻煩? 🫠
+
 - 學者它們去對霍亂弧菌的基因組進行解碼，然後發現很奇怪
 - 他的genome**有一小段的GC content異常的低**，這讓學者覺得，這一短原本根本不是弧菌的序列
 - 它們因此覺得這個基因可能是phage帶來的，並且將這種 "特別的，讓細菌毒力增強" 的特殊序列，叫做致病島 (**pathogenicity isiand**)
@@ -1155,6 +1237,11 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 - 除非...弧菌又被一種phage感染 (CTX $\phi$ )，這個phage的基因裡面就是sequence霍亂毒素
 - 主要編碼CT的基因也被稱為 *ctxAB*
 - 這導致細菌可以同時啟動 TCP 與 ctxAB，使定殖與毒素產生在腸道中同步發生
+
+> [!Tip]
+> - V. cholerae: 我只是想要好好附著 🙂
+> - human: 那你為甚麼連ctxAB都要一起分泌? 😑
+> - V. cholerae: 鬼知道為什麼 😭💀
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/V.%20cholerae_become_pathogenic_due_to_the_infection_of_phage_CTX%CF%86_which_imported_ctxAB_gene_1015.png)
 
@@ -1185,6 +1272,10 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 - **Cholera toxin** 會對 $G_s\alpha$ 進行 ADP-ribosylation，抑制它的 GTPase-mediated shutoff。
 - 更精確地說，毒素的 A1 fragment 利用 $NAD^+$ 作為 **ADP-ribose donor**，將 **ADP-ribose 共價修飾**到 $G_s\alpha$ 的特定 arginine residue (經典上為 Arg201)
 - 這個修飾使 $G_s\alpha$ 失去正常關閉訊號的能力，無法自行水解GTP
+
+> [!Tip]
+> - CT: (改造一番) here，送你的禮物 (ADP-ribose) 😗
+> - $G_s\alpha$ : 你人還怪好的哩 🙂
 
 #### 接下來
 - 細胞內 **cAMP 增加，活化 protein kinase A** (PKA)
