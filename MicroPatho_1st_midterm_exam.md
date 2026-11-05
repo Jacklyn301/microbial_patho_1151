@@ -721,6 +721,8 @@ $$NADPH + O_2\quad\overrightarrow{NADPH\ oxidase}\quad O_2\cdot^- + NADP^+$$
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/physiological_host_defenses_immobilize_bacteria_through_the_activation_of_the_prothrombin_1001.png)
 
+<iframe src="https://Jacklyn301.github.io/molecular_model/1NU9_Staphylocoagulase-Prethrombin-2%20complex.html" width="100%" height="600px"></iframe>
+
 #### coagulase test
 - 假設你培養出一堆革蘭氏陽性球菌...但這時候還不知道是哪一種。它們可能是...
   - S. aureus
